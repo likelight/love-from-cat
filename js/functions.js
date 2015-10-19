@@ -61,6 +61,7 @@ function startHeartAnimation() {
 		}
 		if (angle >= 30) {
 			clearInterval(animationTimer);
+			$('#love-img').show();
 			showMessages();
 		} else {
 			angle += 0.2;
